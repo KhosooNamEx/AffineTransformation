@@ -1,0 +1,32 @@
+\.vs
+
+\bin
+\obj
+\Debug
+/Debug
+
+\Release
+/Release
+.settings/
+.vscode/
+obj/
+HAL/
+
+# NiosEDS Related Files
+*.d
+*.o
+*.elf
+*.map
+*.objdump
+*.stackdump
+
+libhal_bsp.a
+memory.gdb
+
+# 実行ファイル
+*.elf.flash.* 
+*.jic
+*.flash
+*.sof
+*.hex
+
